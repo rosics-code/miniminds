@@ -69,7 +69,39 @@ strong {
 li {
   color: black;
 }
+nav {
+  display: flex;
+  background-color: #333;
+  padding: 15px 20px; /* Adds more space inside the navbar */
+  margin-top: 10px; /* Adds space above the navbar */
+  margin-bottom: 10px; /* Adds space below the navbar */
+  position: sticky;
+  top: 0; /* Keeps it sticky at the top */
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      transition: background-color 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #575757;
+    }
 </style>
+
+<div class="nav"> 
+  <a class="arial" href="https://bugschangelog.vercel.app/">Home</a> 
+  <a class="arial" href="about.html">About</a> 
+  <a class="arial" href="contact.html">Contact</a> 
+  <a class="arial" href="https://scratch.mit.edu/">Scratch Website</a> 
+</div>  
   
 <h1 class="arial">Power your education, go big.</h1>
 <p class="arial">With our education software, you can learn many things from Math, Science, English, and more, and it's all free! No payment required.</p>
